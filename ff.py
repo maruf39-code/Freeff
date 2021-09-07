@@ -198,7 +198,7 @@ def login():
 			print("\n\x1b[1;92mYour Account is on Checkpoint")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
-	    keluar()
+	                keluar()
 		else:
 			print("\n\x1b[1;93mPassword/Email is wrong")
 			os.system('rm -rf login.txt')
